@@ -48,3 +48,10 @@ En este archivo probamos y creamos los distintos puntos que nos pedia el examen 
 ### procedure.sql
 
 No pudimos realizar ningun procedimiento
+
+
+
+
+### Estuduos o apuntes
+
+[Estudio_Postgresql](https://github.com/JDMeneses27/Estudio_Postgresql.git)
