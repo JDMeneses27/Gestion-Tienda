@@ -1,4 +1,4 @@
-### Descripción del proyecto explicando su propósito y funcionalidad.
+# Descripción del proyecto explicando su propósito y funcionalidad.
 
 En este proyecto lo que hacemos es que creamos diferentes tablas para la tienda TechZone y ademas le agregamos unos datos ficticios para probar creamos tablas como : Clientes, Proveedores, Productos y Ventas.
 
@@ -18,3 +18,33 @@ docker exec -it Gestion_container bash
 ```bash
 psql -h localhost -U admin -d Tienda -W
 ```
+
+# Descripción de cada script (db.sql, insert.sql, queries.sql, procedure.sql).
+
+### db.sql
+
+Creamos la database basica con sus respectivas 4 tablas y ademas creamos los after table para añadir ls foreign key para que al momento de hacer los otros puntos del examen no haya ningun error.
+
+### insert.sql
+
+Insertamos distintos datos ficticios en las tablas para que se puedan probar los queries y los procedure.
+
+### queries.sql
+
+En este archivo probamos y creamos los distintos puntos que nos pedia el examen , realizamos los siguientes ejercicios:
+
+1️⃣ Listar los productos con stock menor a 5 unidades.
+
+2️⃣ Calcular ventas totales de un mes específico.
+
+3️⃣ Obtener el cliente con más compras realizadas.
+
+4️⃣ Listar los productos más vendidos.
+
+5️⃣ Consultar ventas realizadas en un rango de fechas.
+
+6️⃣ Identificar clientes que no han comprado en los últimos 6 meses.
+
+### procedure.sql
+
+No pudimos realizar ningun procedimiento
