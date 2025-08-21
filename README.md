@@ -52,6 +52,6 @@ No pudimos realizar ningun procedimiento
 
 
 
-### Estuduos o apuntes
+### Estudios o apuntes
 
 [Estudio_Postgresql](https://github.com/JDMeneses27/Estudio_Postgresql.git)
