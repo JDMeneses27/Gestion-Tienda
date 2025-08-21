@@ -34,18 +34,17 @@ INSERT INTO productos (nombre, categoria, precio, stock_disponible, proveedor_id
 ('Router TP-Link', 'Electrónica', 89.99, 25, 6),
 ('Disco Duro Seagate', 'Electrónica', 129.99, 14, 7);
 
-INSERT INTO ventas (cliente_id, producto_id, cantidad, total) VALUES
-(1, 1, 1, 999.99),
-(2, 2, 2, 1599.98),
-(3, 3, 1, 3899.00),
-(4, 4, 1, 1499.99),
-(5, 5, 3, 1049.97),
-(6, 6, 1, 499.99),
-(7, 7, 2, 599.98),
-(8, 8, 1, 199.99),
-(9, 9, 4, 359.96),
-(10, 10, 1, 129.99);
-
+INSERT INTO ventas (cliente_id, producto_id, cantidad, fecha, total)VALUES
+(1, 1, 1, '2025-03-01 10:00:00', 999.99),
+(2, 2, 2, '2025-04-02 11:30:00', 1599.98),
+(3, 3, 1, '2025-04-03 14:15:00', 3899.00),
+(4, 4, 1, '2025-06-04 09:45:00', 1499.99),
+(5, 5, 3, '2025-01-05 16:20:00', 1049.97),
+(6, 6, 1, '2025-01-06 13:10:00', 499.99),
+(7, 7, 2, '2025-03-07 12:00:00', 599.98),
+(8, 8, 1, '2025-02-08 15:30:00', 199.99),
+(9, 9, 4, '2025-03-09 10:50:00', 359.96),
+(10, 10, 1, '2025-02-10 11:25:00', 129.99);
 DROP TABLE IF EXISTS ventas;
 DROP TABLE IF EXISTS productos;
 DROP TABLE IF EXISTS proveedores;
